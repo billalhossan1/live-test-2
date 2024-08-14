@@ -53,6 +53,9 @@ class HomeScreen extends StatelessWidget {
                 },
                 child: Text("Click Me",
                 ),),
+            SizedBox(
+              height: 10,
+            ),
 
             Text.rich(TextSpan(
               text: "Welcome to ",
